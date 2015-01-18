@@ -17,7 +17,7 @@ var loadScv = function () {
     reader.setColumnNames(['date', 'reading']);
 
     reader.addListener('data', function(data) {
-        //console.log(data);
+        console.log(data);
         });
 
     reader.addListener('end', function(data) {
